@@ -15,14 +15,14 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         formate-sql: true
     show-sql: true
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
 
 springdoc:
   api-docs:
